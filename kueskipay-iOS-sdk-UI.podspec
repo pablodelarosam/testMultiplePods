@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Pablo de la Rosa Michicol" => "pablo.delarosaml@udlap.com.mx" }
   spec.homepage     = "https://github.com/pablodelarosam/testMultiplePods"
   spec.source = { :git => "https://github.com/pablodelarosam/testMultiplePods.git", :tag => "#{spec.version}" }
-  spec.source_files  = "../kueskipay-iOS-sdk-UI/**/*.{swift}"
+  spec.source_files  = "kueskipay-iOS-sdk-UI/kueskipay-iOS-sdk-UI/**/*.{swift}"
   spec.swift_version = "5.0"
   spec.framework  = "UIKit"
 
