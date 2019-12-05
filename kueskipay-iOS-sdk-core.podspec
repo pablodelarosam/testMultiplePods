@@ -11,14 +11,14 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "kueskipay-iOS-sdk-core"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "kueskipay-iOS-sdk-core pod."
   spec.requires_arc = true
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Pablo de la Rosa Michicol" => "pablo.delarosaml@udlap.com.mx" }
   spec.homepage     = "https://github.com/pablodelarosam/testMultiplePods"
   spec.source = { :git => "https://github.com/pablodelarosam/testMultiplePods.git", :tag => "#{spec.version}" }
-  spec.source_files  = "kueskipay-iOS-sdk-core/**/*.{swift}"
+  spec.source_files  = "kueskipay-iOS-sdk-core/kueskipay-iOS-sdk-core/**/*.{swift}"
   spec.swift_version = "5.0"
   spec.framework  = "UIKit"
 
