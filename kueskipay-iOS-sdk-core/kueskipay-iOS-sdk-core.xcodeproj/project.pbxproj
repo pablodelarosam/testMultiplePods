@@ -7,28 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9113AC3C2396D55400376E94 /* kueskipay_iOS_sdk_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9113AC322396D55400376E94 /* kueskipay_iOS_sdk_core.framework */; };
-		9113AC412396D55400376E94 /* kueskipay_iOS_sdk_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9113AC402396D55400376E94 /* kueskipay_iOS_sdk_coreTests.swift */; };
 		9113AC432396D55400376E94 /* kueskipay_iOS_sdk_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 9113AC352396D55400376E94 /* kueskipay_iOS_sdk_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9113AC3D2396D55400376E94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9113AC292396D55400376E94 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9113AC312396D55400376E94;
-			remoteInfo = "kueskipay-iOS-sdk-core";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9113AC322396D55400376E94 /* kueskipay_iOS_sdk_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kueskipay_iOS_sdk_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9113AC352396D55400376E94 /* kueskipay_iOS_sdk_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kueskipay_iOS_sdk_core.h; sourceTree = "<group>"; };
 		9113AC362396D55400376E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9113AC3B2396D55400376E94 /* kueskipay-iOS-sdk-coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kueskipay-iOS-sdk-coreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9113AC402396D55400376E94 /* kueskipay_iOS_sdk_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kueskipay_iOS_sdk_coreTests.swift; sourceTree = "<group>"; };
-		9113AC422396D55400376E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,14 +24,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9113AC382396D55400376E94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9113AC3C2396D55400376E94 /* kueskipay_iOS_sdk_core.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,7 +31,6 @@
 			isa = PBXGroup;
 			children = (
 				9113AC342396D55400376E94 /* kueskipay-iOS-sdk-core */,
-				9113AC3F2396D55400376E94 /* kueskipay-iOS-sdk-coreTests */,
 				9113AC332396D55400376E94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				9113AC322396D55400376E94 /* kueskipay_iOS_sdk_core.framework */,
-				9113AC3B2396D55400376E94 /* kueskipay-iOS-sdk-coreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,15 +50,6 @@
 				9113AC362396D55400376E94 /* Info.plist */,
 			);
 			path = "kueskipay-iOS-sdk-core";
-			sourceTree = "<group>";
-		};
-		9113AC3F2396D55400376E94 /* kueskipay-iOS-sdk-coreTests */ = {
-			isa = PBXGroup;
-			children = (
-				9113AC402396D55400376E94 /* kueskipay_iOS_sdk_coreTests.swift */,
-				9113AC422396D55400376E94 /* Info.plist */,
-			);
-			path = "kueskipay-iOS-sdk-coreTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,24 +84,6 @@
 			productReference = 9113AC322396D55400376E94 /* kueskipay_iOS_sdk_core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9113AC3A2396D55400376E94 /* kueskipay-iOS-sdk-coreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9113AC492396D55400376E94 /* Build configuration list for PBXNativeTarget "kueskipay-iOS-sdk-coreTests" */;
-			buildPhases = (
-				9113AC372396D55400376E94 /* Sources */,
-				9113AC382396D55400376E94 /* Frameworks */,
-				9113AC392396D55400376E94 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9113AC3E2396D55400376E94 /* PBXTargetDependency */,
-			);
-			name = "kueskipay-iOS-sdk-coreTests";
-			productName = "kueskipay-iOS-sdk-coreTests";
-			productReference = 9113AC3B2396D55400376E94 /* kueskipay-iOS-sdk-coreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,9 +95,6 @@
 				ORGANIZATIONNAME = "Pablo de la Rosa Michicol";
 				TargetAttributes = {
 					9113AC312396D55400376E94 = {
-						CreatedOnToolsVersion = 11.2.1;
-					};
-					9113AC3A2396D55400376E94 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -168,20 +113,12 @@
 			projectRoot = "";
 			targets = (
 				9113AC312396D55400376E94 /* kueskipay-iOS-sdk-core */,
-				9113AC3A2396D55400376E94 /* kueskipay-iOS-sdk-coreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9113AC302396D55400376E94 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9113AC392396D55400376E94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,23 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9113AC372396D55400376E94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9113AC412396D55400376E94 /* kueskipay_iOS_sdk_coreTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9113AC3E2396D55400376E94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9113AC312396D55400376E94 /* kueskipay-iOS-sdk-core */;
-			targetProxy = 9113AC3D2396D55400376E94 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9113AC442396D55400376E94 /* Debug */ = {
@@ -385,42 +306,6 @@
 			};
 			name = Release;
 		};
-		9113AC4A2396D55400376E94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BYKNZ8J7A7;
-				INFOPLIST_FILE = "kueskipay-iOS-sdk-coreTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "m.kueskipay-iOS-sdk-coreTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9113AC4B2396D55400376E94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BYKNZ8J7A7;
-				INFOPLIST_FILE = "kueskipay-iOS-sdk-coreTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "m.kueskipay-iOS-sdk-coreTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,15 +323,6 @@
 			buildConfigurations = (
 				9113AC472396D55400376E94 /* Debug */,
 				9113AC482396D55400376E94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9113AC492396D55400376E94 /* Build configuration list for PBXNativeTarget "kueskipay-iOS-sdk-coreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9113AC4A2396D55400376E94 /* Debug */,
-				9113AC4B2396D55400376E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
