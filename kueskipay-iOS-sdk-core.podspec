@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "kueskipay-iOS-sdk-core"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "kueskipay-iOS-sdk-core pod."
   spec.requires_arc = true
   spec.license      = { :type => "MIT", :file => "LICENSE" }
